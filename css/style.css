@@ -4,6 +4,10 @@
     z-index: 10000;
 }
 
+.navbar-text {
+    margin-right: 15px;
+}
+
 .container {
     /* margin-top: 100px; */
     padding-top: 90px;
@@ -34,6 +38,11 @@ section {
 .card-img-top {
     width: 287px;
     height: 150px;
+}
+
+.card-text-height {
+    height: 130px;
+    /* background-color: brown; */
 }
 
 .gap-2 {
