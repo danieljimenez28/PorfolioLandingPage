@@ -11,7 +11,7 @@
 }
 
 .img-profile {
-    height: 100%;
+    height: 200px;
 }
 
 .card-profetion {
@@ -29,6 +29,11 @@
 
 section {
     margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 287px;
+    height: 150px;
 }
 
 .gap-2 {
