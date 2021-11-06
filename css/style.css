@@ -15,7 +15,15 @@
 }
 
 .img-profile {
+    display: block;
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.card-profile {
+    border: none;
 }
 
 .card-profetion {
@@ -62,4 +70,12 @@
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+.aboutMy {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 1.5rem;
+    box-shadow: 0 0 5px;
 }
