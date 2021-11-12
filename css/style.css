@@ -28,7 +28,7 @@
 
 .file-container {
     position: fixed;
-    top: 100px;
+    top: 90px;
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .3);
@@ -45,7 +45,7 @@
 
 .file-container span {
     position: fixed;
-    top: 110px;
+    top: 100px;
     left: 47%;
     background-color: tomato;
     font-weight: bold;
@@ -56,6 +56,15 @@
 .file-container span:hover {
     box-shadow: 0 0 5px;
     cursor: pointer;
+}
+
+.file-container p {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px;
+    margin-top: 5px;
+    padding: 5px 0;
+    border-radius: 5px;
 }
 
 .viewFile {
