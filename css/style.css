@@ -151,9 +151,18 @@ backdrop-filter: blur(50px);
     height: 200px;
 }
 
+.card:hover {
+    box-shadow: blue 0px 0px 10px 0px;
+    transform: rotate(-10deg);
+    z-index: 10;
+}
+
+article .col-md-3:hover {
+    width: 150%;
+}
+
 .card-text-height {
     height: 130px;
-    /* background-color: brown; */
 }
 
 .gap-2 {
@@ -161,9 +170,6 @@ backdrop-filter: blur(50px);
 }
 
 .container-footer {
-    /* position: fixed;
-    bottom: 0;
-    width: 100%; */
     background-color: black;
     color: white;
     text-align: center;
@@ -176,4 +182,10 @@ backdrop-filter: blur(50px);
     text-align: justify;
     font-size: 1.5rem;
     box-shadow: 0 0 5px;
+}
+
+@media (max-width: 550px) {
+    .card-img-top {
+        height: 150px;
+    }
 }
