@@ -214,7 +214,15 @@ article .col-md-3:hover {
     font-size: 1.5rem;
     box-shadow: 0 0 5px;
 }
-
+.container-notice {
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+.container-notice h1 {
+    color: #0070f3;
+    text-align: center;
+}
 @media (max-width: 550px) {
     .card-img-top {
         height: 150px;
