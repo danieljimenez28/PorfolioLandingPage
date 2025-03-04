@@ -6,11 +6,6 @@ const fileContainer = document.getElementById('file-container');
 const closePDF = document.getElementById('closePDF');
 
 
-
-btnHeroesProject.addEventListener('click', () => {
-    alert('Funcionalidad en proceso de desarrollo');
-});
-
 btnViewCV.addEventListener('click', () => {
     fileContainer.classList.add('file-container-display');
 });
